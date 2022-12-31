@@ -1,0 +1,14 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "red": "jest --runInBand --detectOpenHandles --coverage Red",
+    "green": "jest --runInBand --detectOpenHandles --coverage Green",
+    "refactor": "jest --runInBand --detectOpenHandles --coverage Refactor"
+  },
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
