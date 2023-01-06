@@ -1,4 +1,6 @@
-## membuat fungsi dengan kriteria sebagai berikut
+## requirement
+
+membuat fitur perkalian dengan kriteria sebagai berikut:
 
 | Rule        | Description                                      |
 | ----------- | ------------------------------------------------ |

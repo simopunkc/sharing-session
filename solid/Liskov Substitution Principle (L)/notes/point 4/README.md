@@ -4,4 +4,4 @@ misalnya parameter behaviour pada superclass adalah tipe INTEGER lalu subclass m
 
 kode yang sebelumnya memiliki ketergantungan dengan superclass tidak error ketika value parameter adalah negatif.
 
-kode yang sekarang memiliki ketergantungan dengan subclass menjadi error ketika value parameter adalah negatif.
+tetapi kode yang sekarang memiliki ketergantungan dengan subclass menjadi error ketika value parameter adalah negatif.

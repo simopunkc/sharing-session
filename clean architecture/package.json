@@ -1,0 +1,13 @@
+{
+  "name": "clean-arch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bad": "jest --runInBand --detectOpenHandles --coverage DependencyInjection/WithoutDi",
+    "good": "jest --runInBand --detectOpenHandles --coverage DependencyInjection/WithDi"
+  },
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}

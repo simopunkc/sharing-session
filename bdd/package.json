@@ -1,0 +1,17 @@
+{
+  "name": "bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bdd": "cucumber-js ./demo/**/*.feature -r ./demo/**/*.step.js --publish-quiet --format progress-bar",
+    "test": "nyc yarn bdd"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0"
+  }
+}

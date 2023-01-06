@@ -8,7 +8,7 @@
     "green": "jest --runInBand --detectOpenHandles --coverage Green",
     "refactor": "jest --runInBand --detectOpenHandles --coverage Refactor"
   },
-  "dependencies": {
+  "devDependencies": {
     "jest": "^29.3.1"
   }
 }
